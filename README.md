@@ -7,12 +7,9 @@ corresponding testbenches for functional verification.
 
 ---
 
-## 📌 Objectives
+📌 Objectives
 - Understand fundamental digital design concepts
 - Practice RTL coding using Verilog HDL
 - Develop and verify designs using testbenches
 - Gain hands-on experience with simulation tools
 
----
-
-## 📂 Repository Structure
