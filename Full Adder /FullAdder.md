@@ -1,7 +1,7 @@
 # ➕ Full Adder (Verilog HDL)
 
 ## 📘 Overview
-A **Full Adder** is a **combinational logic circuit** that performs the arithmetic addition of **three input bits** — two operands (`a`, `b`) and a **carry input** (`cin`).  
+A **Full Adder** is a **combinational logic circuit** that performs the arithmetic addition of **three input bits** — two operands (`A`, `B`) and a **carry input** (`Cin`).  
 It produces two outputs: the **sum** and the **carry-out**.  
 
 ---
@@ -17,19 +17,19 @@ It produces two outputs: the **sum** and the **carry-out**.
 ## 🧮 Functionality
 
 ### 🔹 Inputs:
-- `a` → First input bit  
-- `b` → Second input bit  
-- `cin` → Carry input  
+- `A` → First input bit  
+- `B` → Second input bit  
+- `Cin` → Carry input  
 
 ### 🔹 Outputs:
-- `sum` → Output bit representing `(a ⊕ b ⊕ cin)`  
-- `carry` → Output carry bit representing `((a & b) | (b & cin) | (a & cin))`  
+- `Sum` → Output bit representing `(A ⊕ B ⊕ Cin)`  
+- `Carry` → Output carry bit representing `((A & B) | (B & Cin) | (A & Cin))`  
 
 ---
 
 ## 🗂 Truth Table
 
-| a | b | cin | sum | carry |
+| A | B | Cin | Sum | Carry |
 |---|---|-----|-----|-------|
 | 0 | 0 | 0   |  0  |   0   |
 | 0 | 0 | 1   |  1  |   0   |
@@ -43,10 +43,10 @@ It produces two outputs: the **sum** and the **carry-out**.
 ---
 
 ## ⚙️ Working Principle
-- The **sum** output is generated using a **three-input XOR operation**:  
-  `sum = a ⊕ b ⊕ cin`  
+- The **Sum** output is generated using a **three-input XOR operation**:  
+  `Sum = A ⊕ B ⊕ Cin`  
 - The **carry** output is produced using **majority logic**:  
-  `carry = (a & b) | (b & cin) | (a & cin)`  
+  `Carry = (A & B) | (B & Cin) | (A & Cin)`  
 
 This logic ensures correct arithmetic addition at the bit level.
 
