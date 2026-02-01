@@ -44,8 +44,7 @@ It produces two outputs: the **sum** and the **carry-out**.
   `Sum = A ⊕ B ⊕ Cin`  
 - The **carry** output is produced using **majority logic**:  
   `Carry = (A & B) | (B & Cin) | (A & Cin)`  
-
-This logic ensures correct arithmetic addition at the bit level.
+This logic ensures correct arithmetic addition at the bit level. 
 ---
 
 ## 📈 Waveform
