@@ -1,4 +1,4 @@
-# ➕ Full Adder (Verilog HDL)
+#  Full Adder (Verilog HDL)
 
 ## 📘 Overview
 A **Full Adder** is a **combinational logic circuit** that performs the arithmetic addition of **three input bits** — two operands (`A`, `B`) and a **carry input** (`Cin`).  
