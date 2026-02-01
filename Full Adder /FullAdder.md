@@ -52,6 +52,7 @@ This logic ensures correct arithmetic addition at the bit level.
 
 ![Waveform]()
 ---
+
 ## 🧠 Applications
 ```
     Used in Arithmetic Logic Units (ALUs)
@@ -60,6 +61,8 @@ This logic ensures correct arithmetic addition at the bit level.
 
     Building block for multi-bit adders like Ripple Carry or Carry Look-Ahead Adders
 ```
+---
+
 ### 🏁 Conclusion
 
 The Full Adder combines three inputs to produce accurate sum and carry outputs.
