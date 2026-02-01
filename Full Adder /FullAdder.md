@@ -1,9 +1,9 @@
 #  Full Adder (Verilog HDL)
+---
 
 ## 📘 Overview
 A **Full Adder** is a **combinational logic circuit** that performs the arithmetic addition of **three input bits** — two operands (`A`, `B`) and a **carry input** (`Cin`).  
 It produces two outputs: the **sum** and the **carry-out**.  
-
 ---
 
 ## 📂 Files
@@ -11,7 +11,6 @@ It produces two outputs: the **sum** and the **carry-out**.
 - **Full_Adder_TB.v** → Testbench for verification
 - **Full_Adder_DF.v** → RTL design for 1-bit Full Adder using Half Adder (Structural Style)
 - **Full_Adder_DF_TB.v** → Testbench for verification
-
 ---
 
 ## 🧮 Functionality
@@ -24,7 +23,6 @@ It produces two outputs: the **sum** and the **carry-out**.
 ### 🔹 Outputs:
 - `Sum` → Output bit representing `(A ⊕ B ⊕ Cin)`  
 - `Carry` → Output carry bit representing `((A & B) | (B & Cin) | (A & Cin))`  
-
 ---
 
 ## 🗂 Truth Table
@@ -39,7 +37,6 @@ It produces two outputs: the **sum** and the **carry-out**.
 | 1 | 0 | 1   |  0  |   1   |
 | 1 | 1 | 0   |  0  |   1   |
 | 1 | 1 | 1   |  1  |   1   |
-
 ---
 
 ## ⚙️ Working Principle
@@ -49,12 +46,12 @@ It produces two outputs: the **sum** and the **carry-out**.
   `Carry = (A & B) | (B & Cin) | (A & Cin)`  
 
 This logic ensures correct arithmetic addition at the bit level.
-
 ---
 
 ## 📈 Waveform
 
 ![Waveform]()
+---
 ## 🧠 Applications
 ```
     Used in Arithmetic Logic Units (ALUs)
